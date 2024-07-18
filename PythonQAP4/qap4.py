@@ -258,6 +258,7 @@ while True:
             print()
             print("Insurance record has been successfully saved to Records.dat.")
             print()
+            print()
             break
         elif UserSaveConfirm == "N":
             break
@@ -267,6 +268,7 @@ while True:
     # Display previous claim information, if the user wishes to.
     while True:
         ClaimRecordConfirm = input("Would you like to view previous claim records? Y or N: ").upper()
+        print()
         if ClaimRecordConfirm == "Y":
             # Read file and format necessary data.
             print("Claim #   Claim Date      Amount")
@@ -277,9 +279,11 @@ while True:
             break
         elif ClaimRecordConfirm == "N":
             break
-
+    
+    print()
     ProceedConfirm = input("Would you like to enter another customer? Y or N: ").upper()
     if ProceedConfirm == "N":
         print("Thank you!")
         exit()
+        
     # Done! :)
