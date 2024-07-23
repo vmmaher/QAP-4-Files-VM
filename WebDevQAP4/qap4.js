@@ -71,3 +71,5 @@ Check-in date was ${motelCustomer.checkInDate} and check-out date was ${motelCus
 The duration of the stay was ${motelCustomer.determineStayLength()} days.`;
 
 console.log(motelCustomerDescription);
+//document.write(motelCustomerDescription); //This overwrites any previous html so it is usually used for testing.// //
+window.alert(motelCustomerDescription);
