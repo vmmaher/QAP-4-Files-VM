@@ -16,7 +16,7 @@ The Python program requires the following libraries:
 - time
 
 ## Files
-The program uses the following files:
+The Python program uses the following additional files:
 - `Const.dat`: Contains program constants.
 - `Claims.dat`: Contains claim data.
 - `Records.dat`: Contains records of previous runs of the program.
